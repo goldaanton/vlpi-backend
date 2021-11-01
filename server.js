@@ -8,7 +8,7 @@ const app = express();
 const Role = db.role;
 
 var corsOptions = {
-  origin: "http://localhost:8081"
+  origin: "http://localhost:4200"
 };
 
 app.use(cors(corsOptions));
